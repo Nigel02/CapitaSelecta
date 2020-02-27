@@ -1,5 +1,11 @@
 <!DOCTYPE html>
     <html lang="en">
+    <script>
+        document.getElementById("btnClose").addEventListener("click", function() {
+            window.close();
+        });
+    </script>
+    <title> Hello, Word... </title>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +14,10 @@
     <body>
         <form method="GET" action="">
             <h1> Header Baru </h1>
-            <input name="cari">
+            <input name="umur" required>
+            <input name="nama" placeholder="Nama">
             <button> Search </button>
-
-            Menyenangkan Lho m
+            <input type="button" class="" id="btnClose" value="Close">ii
         </form>
     </body>
 </html>
